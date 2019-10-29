@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  // import section\n  import Header from \"./component/Header.svelte\";\n  import Nested from \"./component/Nested.svelte\";\n  import DarkCard from \"./component/DarkCard.svelte\";\n\n  // export section\n  export let name;\n</script>\n\n<style>\n  h1 {\n    color:#007BFF;\n\tfont-size:2rem;\n  }\n</style>\n\n<Header />\n<h1>Welcome {name}!</h1>\n<Nested />\n<DarkCard/>\n"
+  ],
+  "names": [],
+  "mappings": "AAWE,EAAE,cAAC,CAAC,AACF,MAAM,OAAO,CAChB,UAAU,IAAI,AACb,CAAC"
+}
